@@ -1,0 +1,12 @@
+[programs.devnet]
+gif_portal_backend = "EHCVqbuK5NhFbULkRfvg11txdYbNbaDvEuKSNvCTnNJf"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/home/enzo/.config/solana/id.json"
+
+[scripts]
+test = "node tests/gif_portal_backend.js" 
